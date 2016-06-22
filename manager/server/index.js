@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+const config = require('../common/config');
+
 app.get('/', function(req, res) {
     res.send('Hello World!');
 });
